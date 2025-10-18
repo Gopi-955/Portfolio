@@ -1,0 +1,289 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styels.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+  <nav class="navbar" data-aos="fade-up">
+      <div class="logo">Portfolio</div>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume" >Resume</a></li>
+        <li><a href="#education" >Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero" >
+    <div class="hero-content">
+      <div class="profile-pic">
+    <img src="profile.jpg" alt="Gopi Profile Picture">
+</div>
+      <h1>Hello, I'm <span class="name">Gopi</span></h1>
+      <p class="tagline">Aspiring Developer | Creative Thinker | Problem Solver</p>
+      <div data-aos="fade-up">
+      <a href="#projects" class="btn">View My Work</a>
+      </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section" data-aos="fade-right">
+    <h2>About Me</h2>
+<p>
+    Hi, I’m <strong>Thokala Gopi</strong>, a passionate and detail-oriented 
+    <strong>B.Tech Computer Science student</strong> at Mallareddy College of Engineering and Technology, 
+    with a strong interest in <strong>Data Science</strong> and <strong>Software Development</strong>.
+  </p>
+  <p>
+    I enjoy building interactive and dynamic websites using HTML, CSS, JavaScript, and Python. 
+    I’ve worked on projects like a SMART-EXAM:Proctor & Grader, Food Delivery App, and animated personal portfolios. 
+    My goal is to combine creativity with problem-solving to deliver impactful solutions.
+  </p>
+  <p>
+    Currently, I’m seeking opportunities where I can apply my skills, learn from real-world challenges, 
+    and grow as a developer. I am open to internships and entry-level roles in <strong>Web Development</strong> 
+    or <strong>Data Science</strong>.
+  </p>
+  </section>
+
+  <!-- resume -->
+   <section id="resume" class="section" data-aos="fade-down">
+    <h2>Resume</h2>
+    <center>
+    <a href="Resume.pdf" target="_blank" class="resume-btn">View Resume</a>
+    </center>
+   </section>
+
+    <!-- ===== Education (Vertical Timeline) ===== -->
+<section id="education" aria-labelledby="edu-title" data-aos="fade-up">
+  <div class="wrap">
+    <h2 id="edu-title">Education</h2>
+    <p class="subtitle">A quick look at my academic journey.</p>
+
+    <ol class="timeline">
+      <!-- Item 1 -->
+      <li class="item" data-aos="fade-right" data-aos-delay="200">
+        <div class="head">
+          <div class="degree">B.Tech in Computer Science & Engineering - Data Science</div>
+          <div class="grade">CGPA: 8.5/10</div>
+          <div class="meta">
+            <span class="org">Mallareddy College of Engineering & Technology</span> ·
+            <time datetime="2023-08">Aug 2023</time> – <time datetime="2027-06">Jun 2027</time>
+          </div>
+        </div>
+        <p class="desc">
+          Coursework: Data Structures & Algorithms, Oops Concept, DBMS, OS, AI, Computer Networks, Web Development.  Other Activities: Coding club, hackathons, mentoring juniors.
+        </p>
+      </li>
+
+      <!-- Item 2 -->
+      <li class="item"data-aos="fade-left" data-aos-delay="400">
+        <div class="head">
+          <div class="degree">Intermediate (M.P.C)</div>
+          <div class="grade">Score: 82%</div>
+          <div class="meta">
+            <span class="org">Sri Medha V Junior College</span> ·
+            <time datetime="2021-08">Aug 2021</time> – <time datetime="2023-03">Mar 2023</time>
+          </div>
+        </div>
+        <p class="desc">
+          Focused on Mathematics, Physics, and Chemistry; participated in state-level math contests.
+        </p>
+      </li>
+
+      <!-- Item 3 -->
+      <li class="item" data-aos="fade-right" data-aos-delay="600">
+        <div class="head">
+          <div class="degree">SSC (Class X)</div>
+          <div class="grade">CGPA: 10/10</div>
+          <div class="meta">
+            <span class="org">Christ The King High School</span> ·
+            <time datetime="2011-06">Jun 2011</time> – <time datetime="2021-05">May 2021</time>
+          </div>
+        </div>
+        <p class="desc">
+          Class representative; won school science fair for a computer-vision mini project.
+        </p>
+      </li>
+    </ol>
+  </div>
+</section>
+<!-- ===== /Education ===== -->
+
+   </section>
+
+  <!-- SKILLS -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <ul class="skills-list row-1">
+      <li><i class="devicon-html5-plain colored"></i> HTML</li>
+      <li><i class="devicon-css3-plain colored"></i> CSS</li>
+      <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+      <li><i class="devicon-python-plain custom-python"></i> Python</li>
+      <li><i class="devicon-java-plain colored"></i> Java</li>
+      <li><i class="devicon-c-plain colored"></i> C</li>
+    </ul>
+
+    <ul class="skills-list row-2">
+      <li><i class="devicon-mysql-plain colored"></i> SQL</li>
+      <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
+      <li><i class="devicon-react-original colored"></i> React</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" class="skill-icon"> Tableau</li>
+      <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" class="skill-icon"> Power BI</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="section" data-aos="zoom-in">
+  <h2>Projects</h2>
+  <div class="project-cards">
+
+    <div class="card">
+      <h3>SMART-EXAM: PROCTOR & GRADER</h3>
+      <p>
+        Designed SMART-EXAM, an intelligent assessment platform 
+        integrating AI-based proctoring and automated grading to
+        enhance security, accuracy, and scalability in online 
+        exams. The system streamlines evaluation, prevents malpractice, 
+        reduces educator workload, and delivers real-time supervision 
+        for transparent and credible assessments.
+      </p>
+      <!-- Buttons -->
+      <div class="project-buttons">
+        <a href="https://your-live-link.com" target="_blank" class="btn">Go Live</a>
+        <a href="https://github.com/your-repo-link" target="_blank" class="btn github">GitHub</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>E-Commerce System</h3>
+      <p>
+        Designed and developed an interactive Python E-Commerce 
+        System using Tkinter for GUI and SQLite for database 
+        management. Features include product browsing, cart 
+        operations, checkout process, and a dedicated Admin 
+        Mode for inventory management, offering a practical 
+        demonstration of core e-commerce functionalities.
+      </p>
+      <!-- Buttons -->
+      <div class="project-buttons">
+        <a href="https://your-live-link.com" target="_blank" class="btn">Go Live</a>
+        <a href="https://github.com/your-repo-link" target="_blank" class="btn github">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <!-- CONNECT SECTION -->
+<section id="connect" class="section connect-section" data-aos="fade-up">
+  <h2>Connect With Me</h2>
+  <div class="connect-cards">
+   <!--  <div class="connect-card" data-aos="zoom-in" data-aos-delay="0">
+      <a href="https://github.com/Gopi-955" target="_blank">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+    </div> -->
+
+    <div class="connect-card" data-aos="zoom-in" data-aos-delay="100">
+      <a href="https://www.linkedin.com/in/t-gopi-130917338/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+
+    <div class="connect-card" data-aos="zoom-in" data-aos-delay="200">
+      <a href="https://www.instagram.com/its_gopi_95/" target="_blank">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+    </div>
+
+    <div class="connect-card" data-aos="zoom-in" data-aos-delay="300">
+      <a href="https://wa.me/+918897286042" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+
+    <!-- <div class="connect-card" data-aos="zoom-in" data-aos-delay="400">
+      <a href="https://discord.com/channels/1343594875505082459/1343594875505082462" target="_blank">
+        <i class="fab fa-discord"></i>
+        <span>Discord</span>
+      </a>
+    </div> -->
+
+    <div class="connect-card" data-aos="zoom-in" data-aos-delay="500">
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thokalagopi71@gmail.com" target="_blank">
+  <i class="fas fa-envelope"></i>
+  <span>Email</span>
+</a>
+</div>
+
+  </div>
+</section>
+
+
+
+  <!-- CONTACT -->
+<section id="contact" class="section" data-aos="fade-up">
+  <h2 data-aos="zoom-in">Contact Me</h2>
+
+  <form id="contact-form" data-aos="fade-up" data-aos-delay="100">
+    <input type="text" name="from_name" placeholder="Your Name" required data-aos="fade-right" data-aos-delay="200">
+    <input type="email" name="from_email" placeholder="Your Email" required data-aos="fade-left"data-aos-delay="300">
+    <textarea name="message" placeholder="Your Message" rows="5" required data-aos="fade-up"data-aos-delay="400"></textarea>
+    <button id="contact-submit" type="submit" data-aos="zoom-in" data-aos-delay="500">Send Message</button>
+    <p id="contact-status" aria-live="polite"></p>
+  </form>
+</section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="address">
+        Thank you ☺️🤗
+    </p>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration
+    once: true, // only animate once
+    offset: 100 // trigger point
+  });
+</script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100
+  });
+</script>
+</body>
+</html>
